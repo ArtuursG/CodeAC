@@ -26,13 +26,13 @@ This project was designed to practice and demonstrate:
 ---
 
 ## 🧱 Project Structure
-
+```
 ├── main.cpp              # Entry point
 ├── Restaurant.hpp / .cpp # Manages tables, customers, and waitlist logic
 ├── Table.hpp / .cpp      # Represents individual tables
 ├── Customer.hpp / .cpp   # Represents customers
 ├── removeelement.hpp     # Utility for removing weak_ptr from vectors
-
+```
 ---
 
 ## 🚀 How to Run It
