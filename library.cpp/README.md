@@ -20,10 +20,10 @@ To practice and demonstrate:
 
 ## 🧱 Project Structure
 ```
-├── main.cpp # Entry point, handles interactions and prints output
-├── Library.hpp/.cpp # Core logic: add, list, and borrow books
-├── removeelement.hpp # Helper function to remove a book from the list
-├── README.md # Documentation
+├── main.cpp            # Entry point, handles interactions and prints output
+├── Library.hpp/.cpp    # Core logic: add, list, and borrow books
+├── removeelement.hpp   # Helper function to remove a book from the list
+├── README.md           # Documentation
 ```
 
 ## 🚀 How to Run It
