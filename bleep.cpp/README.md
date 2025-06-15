@@ -13,14 +13,14 @@ This project helps practice:
 ## 🚀 How to Run It
 
 ### 1. Clone or download the files:
-git clone https://github.com/ArtuursG/CodeAC.git
-cd CodeAC
+- git clone https://github.com/ArtuursG/CodeAC.git
+- cd CodeAC
 
 ### 2. Compile:
-g++ bleep.cpp functions.cpp -o bleep
+- g++ bleep.cpp functions.cpp -o bleep
 
 ### 3. Run:
-./bleep
+- ./bleep
 
 ##  Lessons Learned / Technical Challenges
 - Managing multi-line strings in C++ requires concatenation or breaking into parts.
