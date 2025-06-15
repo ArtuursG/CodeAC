@@ -10,11 +10,11 @@ This C++ project simulates a basic library system. It tracks available books, al
 
 To practice and demonstrate:
 
-- ✅ Global and static variable usage
-- ✅ Vector-based data storage
-- ✅ Memory-safe list manipulation
-- ✅ Multi-file C++ structure
-- ✅ Budget and capacity checking logic
+- Global and static variable usage
+- Vector-based data storage
+- Memory-safe list manipulation
+- Multi-file C++ structure
+- Budget and capacity checking logic
 
 ---
 
