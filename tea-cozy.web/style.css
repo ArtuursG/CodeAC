@@ -1,0 +1,128 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+.section-heading {
+  margin: 2rem 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  padding: 0.5rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  background-color: black;
+}
+.navbar img {
+  width: 7rem;
+}
+
+/* Banner */
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  position: relative;
+  height: 32rem;
+}
+#banner img {
+  width: 100%;
+  object-fit: cover;
+}
+.banner-text {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  width: 100%;
+}
+
+/* Offerings */
+#tea-month {
+  padding: 2rem;
+}
+.offerings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.offer {
+  max-width: 18rem;
+}
+.offer img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+/* Locations */
+#location {
+  background-image: url("images/img-location-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4rem 2rem;
+}
+.card-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.loc-card {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem;
+  width: 16rem;
+  border-radius: 5px;
+}
+.loc-card h4 {
+  margin-bottom: 1rem;
+}
+.loc-card p {
+  line-height: 1.75rem;
+}
+
+/* Footer */
+footer {
+  padding: 2rem;
+  border-top: 1px solid seashell;
+}
+footer a {
+  color: seashell;
+}
+footer p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: gray;
+}
