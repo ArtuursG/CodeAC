@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.gstatic.com/s/courgette/v7/wEO_EBrAnc9BLjLQAUk1VvoK.woff2') format('woff2');
+}
+
+body {
+  background-color: #e6f2f8;
+  font-family: 'Courgette', cursive;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #00c3ff, #ffff1c);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+  margin: 0;
+  background: -webkit-linear-gradient(lightblue, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main {
+  padding: 2rem;
+}
+
+.color-heading {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+#c { color: red; }
+#oOne { color: orange; }
+#l { color: yellow; }
+#o { color: blue; }
+#r { color: purple; }
+#s { color: green; }
+
+.color-group {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+
+.swatch-label {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 2rem;
+}
+
+.swatch-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0.5rem auto;
+}
+
+.swatch {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.redone { background-color: #640000; }
+.redtwo { background-color: #aa0000; }
+.redthree { background-color: #fa0000; }
+
+.greenone { background-color: #006400; }
+greentwo { background-color: #009600; }
+.greenthree { background-color: #00c800; }
+
+.blueone { background-color: #000064; }
+.bluetwo { background-color: #000096; }
+.bluethree { background-color: #0000c8; }
+
+#fonts {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.font-panel {
+  margin-top: 1rem;
+}
+
+.font-sample {
+  margin: 1rem auto;
+  max-width: 800px;
+}
+
+.heading {
+  font-size: 72px;
+}
+
+.subheading {
+  font-size: 36px;
+}
+
+.paragraph {
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  color: white;
+}
