@@ -1,4 +1,4 @@
-# 🟩 Word Censorship (bleep)
+# Word Censorship (bleep)
 
 ## 🔍 What the Project Does
 This C++ project censors a specified word in a sentence by replacing it with asterisks (`*`). It demonstrates basic string manipulation and function usage.
@@ -13,9 +13,8 @@ This project helps practice:
 ## 🚀 How to Run It
 
 ### 1. Clone or download the files:
-```bash
-git clone <repo_url>
-cd project
+git clone https://github.com/ArtuursG/CodeAC.git
+cd CodeAC
 
 ### 2. Compile:
 g++ bleep.cpp functions.cpp -o bleep
