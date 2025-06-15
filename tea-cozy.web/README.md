@@ -6,7 +6,7 @@ A fictional tea shop website built with HTML and CSS, inspired by real-world des
 
 ## 📸 Preview
 
-![Tea Cozy Screenshot](images/img-mission-bg.jpg)
+![Tea Cozy Screenshot](img-tea-cozy-logo.png)
 
 ---
 
