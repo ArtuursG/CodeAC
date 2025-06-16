@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.download-link {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Phone Mockup */
+.phone-mockup img {
+    width: 300px;
+    max-width: 100%;
+}
+
+/* Info Section */
+.info {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 21px;
+    color: gray;
+}
+
+/* Camping Image */
+.camping-image img {
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Coming Soon Section */
+.coming-soon {
+    padding: 20px;
+}
+
+.coming-soon img {
+    width: 50px;
+}
+
+.coming-soon h2 {
+    font-size: 42px;
+}
+
+/* Footer */
+footer {
+    text-align: right;
+    color: gray;
+    padding: 10px;
+    font-size: 14px;
+}

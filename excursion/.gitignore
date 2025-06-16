@@ -1,0 +1,19 @@
+# Ignore .vscode folders in all subdirectories
+*/.vscode/
+
+# Ignore specific file types in all subdirectories
+*.pptx
+*.docx
+*.pdf
+
+# Ignore temp folders in specific subdirectories
+1KD/temp/
+2KD/temp/
+
+# Allow .jpg and .png in the PHOTO folder
+!excursion/resources/images/*
+!excursion/resources/images/*.jpg
+!excursion/resources/images/*.png
+
+# Ignore log files globally
+*.log
