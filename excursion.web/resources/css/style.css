@@ -71,3 +71,17 @@ footer {
     padding: 10px;
     font-size: 14px;
 }
+
+/* Video Section */
+.video-preview {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.video-preview video {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
