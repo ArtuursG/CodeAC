@@ -1,0 +1,55 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  text-align: left;
+  margin: 0;
+  padding: 20px; /* Adds space around the body content */
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("resources/images/image1.jpeg"); /* Relative path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0; /* Increased padding for height */
+  margin: 0;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+}
+
+.brushes {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: mediumspringgreen;
+  padding: 10px; /* Add padding for spacing */
+}
+
+.frames {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.paint {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: skyblue;
+  padding: 10px;
+}
+
+a {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+}
